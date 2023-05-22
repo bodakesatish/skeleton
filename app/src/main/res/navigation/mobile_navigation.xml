@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/search_scheme">
+
+<!--    <fragment-->
+<!--        android:id="@+id/login_dest"-->
+<!--        android:name="com.bodakesatish.skeleton.ui.login.view.ui.login.LoginFragment"-->
+<!--        android:label="@string/login"-->
+<!--        tools:layout="@layout/fragment_login">-->
+
+<!--        <action-->
+<!--            android:id="@+id/next_action"-->
+<!--            app:destination="@+id/user_scheme_list_dest"-->
+<!--            app:enterAnim="@anim/slide_in_right"-->
+<!--            app:exitAnim="@anim/slide_out_left"-->
+<!--            app:popEnterAnim="@anim/slide_in_left"-->
+<!--            app:popExitAnim="@anim/slide_out_right" />-->
+
+<!--    </fragment>-->
+
+    <fragment
+        android:id="@+id/dashboard_dest"
+        android:name="com.bodakesatish.skeleton.ui.dashboard.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/scheme_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheme_detail_dest"
+        android:name="com.bodakesatish.skeleton.ui.schemedetail.SchemeDetailFragment"
+        android:label="@string/scheme_detail"
+        tools:layout="@layout/fragment_scheme_detail">
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/scheme_transactions"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/previous_action"
+            app:destination="@+id/dashboard_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheme_transactions"
+        android:name="com.bodakesatish.skeleton.ui.schemetransactions.SchemeTransactionsFragment"
+        android:label="@string/scheme_transactions"
+        tools:layout="@layout/fragment_scheme_transactions">
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/scheme_transaction_detail"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/previous_action"
+            app:destination="@+id/scheme_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/investment_confirmation"
+        android:name="com.bodakesatish.skeleton.ui.schemetransactions.InvestmentConfirmationFragment"
+        android:label="@string/investment_confirmation"
+        tools:layout="@layout/fragment_investment_confirmation">
+
+        <action
+            android:id="@+id/previous_action"
+            app:destination="@+id/scheme_transactions"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/scheme_transaction_detail"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheme_transaction_detail"
+        android:name="com.bodakesatish.skeleton.ui.schemetransactions.SchemeTransactionDetailFragment"
+        android:label="@string/scheme_detail"
+        tools:layout="@layout/fragment_scheme_transaction_detail">
+
+        <action
+            android:id="@+id/previous_action"
+            app:destination="@+id/scheme_transactions"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/search_scheme"
+        android:name="com.bodakesatish.skeleton.ui.search.SearchSchemeFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search_scheme">
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/scheme_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/user_scheme_list_dest"
+        android:name="com.bodakesatish.skeleton.ui.user.UserSchemeListFragment"
+        android:label="User Scheme List"
+        tools:layout="@layout/fragment_user_scheme_list">
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/scheme_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+</navigation>
+

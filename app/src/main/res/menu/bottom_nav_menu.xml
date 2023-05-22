@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/user_scheme_list_dest"
+        android:icon="@drawable/ic_settings"
+        android:title="Portfolio" />
+    <item
+        android:id="@id/dashboard_dest"
+        android:icon="@drawable/ic_home"
+        android:title="Dashboard" />
+    <item
+        android:id="@id/search_scheme"
+        android:icon="@drawable/ic_settings"
+        android:title="Search" />
+
+</menu>

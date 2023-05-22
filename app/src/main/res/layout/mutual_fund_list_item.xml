@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#0A000000"
+    android:id="@+id/schemeTotalInvestment">
+
+    <TextView
+        android:id="@+id/tvSchemeName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginStart="@dimen/text_margin"
+        android:gravity="start"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="Parag Parikh Long Term Equity Fund Direct - Growth"/>
+
+    <TextView
+        android:id="@+id/vInvestment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSchemeName"
+        android:text="Investment"
+        android:layout_width="wrap_content"
+        android:gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintEnd_toStartOf="@+id/vCurrentValue"
+        android:textColor="#80000000"/>
+
+    <TextView
+        android:id="@+id/vCurrentValue"
+        app:layout_constraintStart_toEndOf="@+id/vInvestment"
+        app:layout_constraintTop_toBottomOf="@+id/tvSchemeName"
+        app:layout_constraintEnd_toStartOf="@+id/vCurrentReturns"
+        android:text="Current Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/text_margin"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#80000000"/>
+
+    <TextView
+        android:id="@+id/vCurrentReturns"
+        app:layout_constraintStart_toEndOf="@+id/vCurrentValue"
+        app:layout_constraintTop_toBottomOf="@+id/tvSchemeName"
+        android:text="Returns"
+        android:gravity="start"
+        app:layout_constraintEnd_toStartOf="@+id/ivLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:textColor="#80000000"/>
+
+
+    <TextView
+        android:id="@+id/tvInvestment"
+        app:layout_constraintStart_toStartOf="@+id/vInvestment"
+        app:layout_constraintTop_toBottomOf="@+id/vInvestment"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#E6000000"/>
+
+
+    <TextView
+        android:id="@+id/tvCurrentValue"
+        app:layout_constraintStart_toStartOf="@+id/vCurrentValue"
+        app:layout_constraintTop_toBottomOf="@+id/vCurrentValue"
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#E6000000"/>
+
+    <TextView
+        android:id="@+id/tvCurrentReturns"
+        app:layout_constraintStart_toStartOf="@+id/vCurrentReturns"
+        app:layout_constraintTop_toBottomOf="@+id/vCurrentReturns"
+        app:layout_constraintEnd_toStartOf="@+id/ivLaunch"
+        android:text="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#E6000000"/>
+
+    <ImageView
+        android:id="@+id/ivLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_launch"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
