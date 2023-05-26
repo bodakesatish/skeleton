@@ -61,7 +61,7 @@ constructor(
     }
 
     override suspend fun getSchemeMetaData(): SchemeMeta {
-        val listData = schemeMetaDataDao.getScemeMetaData().get(0)
+        val listData = schemeMetaDataDao.getShcemeMetaData().get(0)
         val schemeMetaResponse = SchemeMeta(listData.fundHouse,listData.schemeCategory,listData.schemeCode,listData.schemeName,listData.schemeType)
         return schemeMetaResponse
     }
