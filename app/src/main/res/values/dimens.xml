@@ -1,0 +1,206 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- width & heights -->
+    <dimen name="nav_drawer_height">200dp</dimen>
+    <dimen name="nav_header_logo_width">155dp</dimen>
+    <dimen name="receipt_preview_action_height">50dp</dimen>
+    <dimen name="create_expense_row_height">56dp</dimen>
+    <dimen name="edit_expense_image_row_height">156dp</dimen>
+    <dimen name="category_item_height">50dp</dimen>
+    <dimen name="expense_image_dimension">24dp</dimen>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_icon_size_small">20dp</dimen>
+    <dimen name="save_button_width">130dp</dimen>
+    <dimen name="progress_dimen">85dp</dimen>
+    <dimen name="profile_border_size">8dp</dimen>
+
+    <!-- margins and padding -->
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="expense_explain_margin">25dp</dimen>
+    <dimen name="default_margin_big">64dp</dimen>
+    <dimen name="fab_bottom_margin">64dp</dimen>
+    <dimen name="receipts_top_margin">200dp</dimen>
+    <dimen name="dialog_margin">20dp</dimen>
+    <dimen name="dialog_margin_big">32dp</dimen>
+    <dimen name="dialog_margin_large">46dp</dimen>
+    <dimen name="create_expense_margin">100dp</dimen>
+    <dimen name="category_margin">20dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="profile_logo_margin">20dp</dimen>
+
+    <dimen name="default_margin_small">8dp</dimen>
+
+
+
+    <!-- text sizes -->
+    <dimen name="empty_header_size">18sp</dimen>
+    <dimen name="empty_header_explain_size">14sp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
+    <dimen name="text_size_dialog_action">14sp</dimen>
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="default_text_size_big">16sp</dimen>
+    <dimen name="used_receipt_size">10sp</dimen>
+
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="receipt_view_margin_top">56dp</dimen>
+    <dimen name="rvReceipt_margin">2dp</dimen>
+    <dimen name="receipt_header_height">48dp</dimen>
+    <dimen name="upload_date_text_size">14sp</dimen>
+    <dimen name="receipt_image_item_height">120dp</dimen>
+    <dimen name="receipt_image_height">100dp</dimen>
+    <dimen name="receipt_image_name_height">20dp</dimen>
+    <dimen name="receipt_image_name_text_size">9sp</dimen>
+    <dimen name="receipt_pdf_item_height">120dp</dimen>
+    <dimen name="pdf_image_height">97dp</dimen>
+    <dimen name="tv_pdf_name_height">24dp</dimen>
+    <dimen name="tv_pdf_name_text_size">9sp</dimen>
+    <dimen name="image_capture_option_height">48dp</dimen>
+    <dimen name="divider_margin">10dp</dimen>
+    <dimen name="welcome_to_size">20sp</dimen>
+    <dimen name="dimen_118dp">118dp</dimen>
+    <dimen name="dimen_7dp">7dp</dimen>
+    <dimen name="margin_top_welcome">155dp</dimen>
+    <dimen name="margin_top_email">72dp</dimen>
+    <dimen name="margin_top_input_email">44dp</dimen>
+    <dimen name="margin_left_right_email">63dp</dimen>
+    <dimen name="margin_top_pass">36dp</dimen>
+    <dimen name="padding_password">20dp</dimen>
+    <dimen name="button_size_sign_in">150dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="margin_top_sign_in_via">8dp</dimen>
+    <dimen name="padding_bottom_sign_in_via">10dp</dimen>
+    <dimen name="width_sign_in_with_google">240dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="create_expense_header_size">14sp</dimen>
+    <dimen name="padding_pdf_placeholder">14dp</dimen>
+    <dimen name="dialog_delete_width">280dp</dimen>
+    <dimen name="dialog_delete_padding_bottom">17dp</dimen>
+    <dimen name="dialog_delete_header_size">14sp</dimen>
+    <dimen name="dialog_delete_header_margin_top">69dp</dimen>
+    <dimen name="dialog_delete_header_margin_bottom">48dp</dimen>
+    <dimen name="dialog_delete_skip_height">16dp</dimen>
+    <dimen name="skip_text_size">14sp</dimen>
+    <dimen name="dialog_rename_title_height">39dp</dimen>
+    <dimen name="dialog_rename_title_padding_bottom">10dp</dimen>
+    <dimen name="dialog_rename_header_text_size">14sp</dimen>F
+    <dimen name="dialog_rename_header_margin_top">48dp</dimen>
+    <dimen name="dialog_rename_header_margin_bottom">19dp</dimen>
+    <dimen name="dialog_rename_header_confirmation_margin_bottom">19dp</dimen>
+    <dimen name="dialog_edit_file_margin">18dp</dimen>
+    <dimen name="dialog_rename_error_margin">23dp</dimen>
+    <dimen name="dialog_rename_error_text_size">12sp</dimen>
+    <dimen name="dialog_rename_file_skip_height">52dp</dimen>
+    <dimen name="dialog_rename_file_skip_text_size">14sp</dimen>
+    <dimen name="iv_check_margin_right">10dp</dimen>
+    <dimen name="dialog_rename_header_margin">14dp</dimen>
+    <dimen name="action_button_text_size">14sp</dimen>
+    <dimen name="expense_edit_text_size">14sp</dimen>
+    <dimen name="expense_edit_text_size_footer">12sp</dimen>
+    <dimen name="category_item_text_size">16sp</dimen>
+    <dimen name="spinner_item_text_size">16sp</dimen>
+    <dimen name="close_icon_elevation">2dp</dimen>
+
+
+    <dimen name="margin_top_expenses_card">45dp</dimen>
+    <dimen name="margin_left_expenses_card">18dp</dimen>
+    <dimen name="margin_right_expenses_card">15dp</dimen>
+    <dimen name="margin_top_meal_txt">12dp</dimen>
+    <dimen name="text_size_heading">16sp</dimen>
+    <dimen name="text_size_sub_heading">14sp</dimen>
+    <dimen name="text_size_sub_title_heading">12sp</dimen>
+    <dimen name="card_height_show_expenses">86dp</dimen>
+    <dimen name="margin_left_title_expenses">24dp</dimen>
+    <dimen name="margin_start_meal_expenses">96dp</dimen>
+    <dimen name="receiptview_margin_top">50dp</dimen>
+    <dimen name="empty_message_heder_top_margin">28dp</dimen>
+    <dimen name="empty_message_message_top_margin">22dp</dimen>
+    <dimen name="margin_sign_in_google">60dp</dimen>
+    <dimen name="margin_bottom_sign_in">209dp</dimen>
+    <dimen name="padding_left_sign_in">38dp</dimen>
+    <dimen name="margin_top_login_globant_logo">155dp</dimen>
+    <dimen name="margin_top_sign_in_google">106dp</dimen>
+    <dimen name="iv_splash_header_margin_bottom">53dp</dimen>
+    <dimen name="sign_btn_width">240dp</dimen>
+    <dimen name="sign_btn_padding">25dp</dimen>
+    <dimen name="tv_delete_header_padding">54dp</dimen>
+
+    <dimen name="report_edit_text_size">16sp</dimen>
+    <dimen name="header_background_height">156dp</dimen>
+    <dimen name="profile_logo_size">94dp</dimen>
+    <dimen name="profile_content_margin">10dp</dimen>
+    <dimen name="profile_content_text_size">16sp</dimen>
+    <dimen name="text_size_dialog_action_large">16sp</dimen>
+    <dimen name="banner_height">40dp</dimen>
+    <dimen name="green_receipt_size">47dp</dimen>
+    <dimen name="receipt_status_size">40dp</dimen>
+    <dimen name="expense_card_height">82dp</dimen>
+    <dimen name="drawer_width">320dp</dimen>
+    <dimen name="dialog_feedback_width">290dp</dimen>
+    <dimen name="tv_cancel_margin_top">28dp</dimen>
+    <dimen name="tv_cancel_padding">11dp</dimen>
+    <dimen name="tv_feedback_text_size">14sp</dimen>
+    <dimen name="feedback_title_padding_top">25dp</dimen>
+    <dimen name="tv_sub_header_text_size">12sp</dimen>
+    <dimen name="tv_rating_label_text_size">12sp</dimen>
+    <dimen name="comment_width">207dp</dimen>
+    <dimen name="comment_height">170dp</dimen>
+    <dimen name="comment_text_size">14sp</dimen>
+    <dimen name="tv_description_text_size">12sp</dimen>
+    <dimen name="feedback_failure_text_size">20sp</dimen>
+    <dimen name="feedback_failure_title_text_size">16sp</dimen>
+    <dimen name="failure_and_try_again_message_text_size">16sp</dimen>
+    <dimen name="feedback_success_titlle_text_size">20sp</dimen>
+    <dimen name="feedback_success_title_margin_top">111dp</dimen>
+    <dimen name="feedback_success_img_margin_top">56dp</dimen>
+    <dimen name="feedback_success_message_text_size">16sp</dimen>
+    <dimen name="bt_back_to_expense_width">190dp</dimen>
+    <dimen name="bt_back_to_expense_height">40dp</dimen>
+    <dimen name="bt_back_to_expense_margin_top">31dp</dimen>
+
+    <dimen name="margin_left_expenses_ic_back">18dp</dimen>
+    <dimen name="expenses_ic_back_width">18dp</dimen>
+    <dimen name="expenses_ic_back_height">21dp</dimen>
+
+    <!-- Rate this app -->
+    <dimen name="twenty_five_dp">25dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="eighteen_dp">18dp</dimen>
+    <dimen name="twenty_three_dp">23dp</dimen>
+    <dimen name="thirty_five_dp">35dp</dimen>
+    <dimen name="forty_dp">40dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="thirty_seven_dp">37dp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="twenty_one_dp">21dp</dimen>
+    <dimen name="seven_dp">7dp</dimen>
+    <dimen name="seventeen_dp">17dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="forty_one_dp">41dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="fourteen_dp">14dp</dimen>
+    <dimen name="thirty_six_dp">36dp</dimen>
+    <dimen name="one_sixty_eight_dp">168dp</dimen>
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="thirty_nine_dp">39dp</dimen>
+    <dimen name="two_hundred_eighty_dp">280dp</dimen>
+    <dimen name="one_hundred_seventy_six_dp">176dp</dimen>
+    <dimen name="nineteen_sp">19sp</dimen>
+    <dimen name="about_us_header_text_size">14sp</dimen>
+
+    <dimen name="row_item_margin_vertical">12dp</dimen>
+    <dimen name="row_item_margin_horizontal">12dp</dimen>
+    <dimen name="repo_name_size">24sp</dimen>
+    <dimen name="repo_description_size">16sp</dimen>
+    <dimen name="repo_icon_size">24dp</dimen>
+    <dimen name="loading_progress_bar_size">36dp</dimen>
+    <dimen name="placeholder_item_height">32dp</dimen>
+
+</resources>

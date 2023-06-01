@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/vCurrentValue"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Value"
+        android:textColor="#CC000000"/>
+
+    <TextView
+        android:id="@+id/tvCurrentValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vCurrentValue"
+        android:text="3,54,180.13"
+        android:textColor="#000" />
+
+    <View
+        android:id="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/tvCurrentValue"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/vCurrentInvestment"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Investment"
+        android:textColor="#CC000000"/>
+
+    <TextView
+        android:id="@+id/tvCurrentInvestment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vCurrentInvestment"
+        android:text="3,60,000"
+        android:textColor="#000" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
